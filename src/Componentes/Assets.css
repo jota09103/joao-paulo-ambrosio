@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.pagina-completa {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 28px 24px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 100px;
+  height: 95px;
+  background-color: #f2d82e;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 46px;
+  font-weight: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nome h1 {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+}
+
+.nome h2 {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  font-weight: normal;
+  color: #444;
+}
+
+.descricao p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.corpo {
+  display: flex;
+}
+
+.principal {
+  flex: 2;
+  padding-right: 28px;
+}
+
+.direita {
+  flex: 1;
+  padding-left: 28px;
+  border-left: 1px solid #e5e5e5;
+}
+
+.experiencias h3,
+.educacao h3,
+.contato h3 {
+  font-size: 10px;
+  font-weight: bold;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.nome_cargo p,
+.categoria_ed p {
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+}
+
+.descricao_cargo p,
+.descricao_ed p {
+  font-size: 12px;
+  color: #222;
+}
+
+.cargo,
+.educacional {
+  margin-bottom: 40px;
+}
+
+.cargo h4,
+.educacional h4 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contato {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+}
+
+.contato p {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.rodape {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 24px;
+  padding-top: 24px;
+}
+
+.rodape p {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
